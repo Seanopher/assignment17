@@ -1,0 +1,29 @@
+#album-list {
+    background-color: beige;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+#album-list img {
+    width: 200px;
+    height: 200px;
+}
+
+#album-list section {
+    background-color: burlywood;
+    margin: auto;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 900px)
+{
+    .flex-container {
+        display: flex;
+    }
+
+}

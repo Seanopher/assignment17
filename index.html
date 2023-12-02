@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Album List</h1>
+
+    <div id = "album-list" class="flex-container">
+         
+    </div>
+
+    <div id="add-edit-album" class="dialog transparent">
+        <span class="close">&times;</span>
+
+        <h3 id="add-edit-title">Artist</h3>
+        <form id="add-edit-album-form" method="post">
+            <p>
+                <label for="name ">Album Name:</label>
+                <input type="text" id="name" name="name" required />
+            </p>
+            <p>
+                <label for="artist">Artist:</label>
+                <input type="text" id="artist" name="artist" required />
+            </p>
+
+            <p>
+                <label for="img">Upload Image:</label>
+                <input type="file" id="img" name="img" />
+            </p>
+
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </div>
+  </body>
+</html>
